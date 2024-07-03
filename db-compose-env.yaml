@@ -2,7 +2,7 @@ version: '3.3'
 services:
   db-pictures-api:
     image: postgres:12
-    restart: always
+    #restart: always
     ports:
       - 5432:5432
     environment:
